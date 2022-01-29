@@ -13,6 +13,12 @@ class Template extends React.Component {
       <>
         <Seo />
         <Navigation />
+        <div className="center">
+          <p>John's Dev Page</p>
+          <p>Please view a few of my projects and leave me feedback :)
+          </p>
+          <p><a href="https://linkedin.com/in/jobang">LinkedIn</a></p>
+        </div>
         <main>{children}</main>
         <Footer />
       </>

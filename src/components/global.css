@@ -99,3 +99,11 @@ pre,
 code {
   font-family: var(--font-monospace);
 }
+
+
+.center {
+  max-width: 100rem;
+  width: 85%;
+  padding: 5px;
+  margin-left: 50px;
+}
